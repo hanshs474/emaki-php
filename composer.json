@@ -1,0 +1,12 @@
+{
+    "name": "hanshs474/emaki",
+    "description": "Official SDK for emaki (emaki.ai), the Japanese-language AI video generator for Seedance 2.5 and Seedance 2.0. Generate Seedance clips and images from PHP with one API key.",
+    "type": "library",
+    "keywords": ["seedance", "seedance-2.5", "seedance-2", "video-generation", "text-to-video", "image-to-video", "ai-video", "emaki"],
+    "homepage": "https://emaki.ai/?utm_source=packagist&utm_medium=package",
+    "license": "MIT",
+    "authors": [{"name": "emaki", "homepage": "https://emaki.ai/?utm_source=packagist&utm_medium=package"}],
+    "support": {"issues": "https://github.com/hanshs474/emaki-php/issues", "source": "https://github.com/hanshs474/emaki-php"},
+    "require": {"php": ">=8.1", "ext-curl": "*", "ext-json": "*"},
+    "autoload": {"psr-4": {"Emaki\\": "src/"}}
+}
